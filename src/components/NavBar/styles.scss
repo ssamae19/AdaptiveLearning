@@ -1,0 +1,10 @@
+.navbar {
+    background-color: white !important;
+    padding: 0 20px !important;
+    .logout {
+        cursor: pointer;
+        span {
+            margin-right: 10px;
+        }
+    }
+}

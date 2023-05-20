@@ -1,0 +1,85 @@
+.register-container {
+    // background:
+    //     linear-gradient(
+    //       rgba(3, 6, 33, 0.7),
+    //       rgba(3, 6, 33, 0.7)
+    //     ),
+    //     url(../../assets/images/main-background.png);
+    min-height: 97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f5fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    .login-content {
+        width: 80%;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 0.5rem 1.2rem rgba(0,0,0,.2);
+        
+        .left-container {
+            padding: 20px;
+            border-radius: 16px 0 0 16px;
+            background-color: #BA0001;
+            
+            .left-content {
+                h2 {
+                    color: white;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                p{
+                    color: white; 
+                    text-align: center;
+                    width: 300px
+                }
+
+                .white-bg {
+                    width: 80%;
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                .login-image {
+                    left: 95px;
+                    top: 100px;
+                    position: absolute;
+                    width: 400px;
+
+                }
+            }
+        }
+
+        .right-container {
+            padding: 50px;
+            border-radius: 0 16px 16px 0;
+            // background-color: #BA0001;
+            display: flex;
+            align-items: center;
+            
+            .right-content {
+                // background-color: white;
+                border-radius: 8px;
+                width: 100%;
+                padding: 50px;
+
+                .logo {
+                    width: 350px;
+                    margin-bottom: 25px;
+                }
+
+                h3 {
+                    color: #BA0001;
+                }
+            }
+        }
+        
+    }
+}

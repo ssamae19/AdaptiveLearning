@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    .main-container {
+        height: 97.8vh;
+        .main-container-content {
+            margin: 24px 16px;
+            padding: 24px;
+            height: 100%;
+            background-color: white;
+            overflow-x: hidden;
+            overflow-y: auto;
+            input {
+                font-family: 'Poppins', sans-serif;
+            }
+            .ant-input-number {
+                width: 100%;
+            }
+            .ant-select {
+                width: 100%;
+            }
+            .ant-picker {
+                width: 100%;
+            }
+            .btn-success {
+                background-color: #52c41a;
+            }
+            
+        }
+    }
+    .ant-btn-primary {
+        background-color: #09243f ;
+    }
+
+    .ant-btn-primary:hover {
+        background-color: #09243f ;
+    }
+    .ant-layout .ant-layout-sider {
+        background-color: #09243f ;
+        .ant-menu-dark {
+            background-color: transparent;
+        }
+        .ant-menu .ant-menu-item-selected {
+            background-color: transparent;
+        }
+    }
+    .ant-input-textarea-resizable {
+        resize: none;
+    }
+}
